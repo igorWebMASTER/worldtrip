@@ -35,18 +35,16 @@ export default function Home() {
           fontSize="36"
           color="#47585B"
         >
-        Vamos nessa? <br/>
-Então escolha seu continente
+                Vamos nessa? <br/>
+        Então escolha seu continente
 
           </Text>
       </Box>
 
       <CarouselSlider />
       
-      <Box>
-        <Text>
-          dfdfsdf
-          </Text>
+      <Box mb="8">
+        
       </Box>
     </>
   )

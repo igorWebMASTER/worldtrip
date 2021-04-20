@@ -1,10 +1,16 @@
 import { Image } from "@chakra-ui/image";
 import { Box, Stack, Text } from "@chakra-ui/layout";
+import { useBreakpointValue } from "@chakra-ui/media-query";
 import { BannerImg } from "./bannerImg";
 
 export function BannerHome(){
+  
+  const isWideVersion = useBreakpointValue({
+    base: true,
+    xs: false
+  })
+
   return (
-    
     <Box 
       justify="space-around"
       direction={{ base: 'row', md: 'column', xs : 'column'}}
@@ -22,8 +28,8 @@ export function BannerHome(){
         margin="0 auto"
       >
         <Box
-          px="40"
-          py="100"
+          px={[10, 20, 30]}
+          py={[10, 10, 100]}
           color="#fff"
         >
             <Text 
@@ -44,7 +50,7 @@ export function BannerHome(){
             </Text>
         </Box>
 
-        <BannerImg />
+        <BannerImg display={isWideVersion ? 'none' : 'block'}  />
       </Stack>
     </Box>
   )

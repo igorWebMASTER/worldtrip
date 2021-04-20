@@ -10,41 +10,37 @@ export function CategoriesPlaces(){
     >
       <Stack
         mt="16"
-        p="100"
-        maxW={1140}
-        margin="1rem auto"
+        spacing={["10", "20", "40"]}
+        margin="6rem auto"
         display="flex"
-        direction={{ base: 'row', md: 'row', xs: 'column'}}
+        direction={{ base: 'row', md: 'row', sm: 'column'}}
         alignItems="space-between"
         align="center"
+        justifyItems="center"
+        justifyContent="center"
       >
           <Box
-            ml="35"
-            mr="35"
+            
           >
             <Image src="/Nightlife.svg" />
           </Box>
           <Box
-            ml="35"
-            mr="35"
+           
           >
             <Image src="/Beach.svg" />
           </Box>
           <Box
-            ml="35"
-            mr="35"
+            
           >
             <Image src="/Modern.svg" />
           </Box>
           <Box
-            ml="35"
-            mr="35"
+           
           >
             <Image src="/Classic.svg" />
           </Box>
           <Box
-            ml="35"
-            mr="35"
+           
           >
             <Image src="/More.svg" />
           </Box>
