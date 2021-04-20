@@ -6,7 +6,7 @@ export function Header (){
     <Flex 
       as="header" 
       w="100%"
-      h="80"
+      h="70"
       mt="4"
       px="6"
       align="center"
