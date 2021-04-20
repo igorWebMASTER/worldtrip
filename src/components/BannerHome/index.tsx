@@ -11,8 +11,9 @@ export function BannerHome(){
       position="relative"
       mt="45"
       w="100%"
-      bgImage="url('/banner-img.jpg')"
-      bgPos="bottom"
+      bgImage="url('/Background.png')"
+      bgPos="center"
+      bgSize="cover"
       bgRepeat="no-repeat"
       height="350"
     >

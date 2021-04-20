@@ -1,6 +1,7 @@
 
 import { Box, Center, Container, Text } from '@chakra-ui/layout'
 import { BannerHome } from '../components/BannerHome'
+import { CarouselSlider } from '../components/CarouseSlider'
 import { CategoriesPlaces } from '../components/CategoriesPlaces'
 import {Header} from '../components/Header'
 
@@ -25,7 +26,7 @@ export default function Home() {
         </Box>
       </Container>
       <Box
-        mt="10"
+        mt=""
       >
         <Text
           as="h1"
@@ -40,11 +41,7 @@ Então escolha seu continente
           </Text>
       </Box>
 
-      <Box>
-        <Text>
-          dfdfsdf
-          </Text>
-      </Box>
+      <CarouselSlider />
       
       <Box>
         <Text>
