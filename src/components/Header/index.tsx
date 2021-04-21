@@ -2,11 +2,8 @@ import { Flex, Icon, Text } from "@chakra-ui/react";
 import { useRouter } from 'next/router';
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { useState } from "react";
 
 export function Header (){
- 
-
   return(
     <Flex
       as="header" 

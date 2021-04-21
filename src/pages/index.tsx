@@ -44,7 +44,9 @@ export default function Home() {
 
       <CarouselSlider />
       
-      <Box mb="8">
+      <Box 
+        mb="8"
+      >
         
       </Box>
     </>

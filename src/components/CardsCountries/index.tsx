@@ -4,19 +4,20 @@ import { Card } from "./Card";
 export function CardsCountries(){
   return (
       <Container
-      maxWidth={1160}
-      m="4rem auto"
-    >
-      <Text
-        fontSize="32"
-        fontWeight="500"
-        color="#47585B"
-      >
-        Cidades +100
-      </Text>
+        maxWidth={1160}
+        m="4rem auto"
+      > 
+        <Text
+          fontSize="32"
+          fontWeight="500"
+          color="#47585B"
+          ml={["2" , "0"]}
+        >
+          Cidades +100
+        </Text>
 
       <Grid
-          templateColumns="repeat(4, 1fr)" 
+          templateColumns={["repeat(1, 1fr)", "repeat(4, 1fr)"]} 
           mt="8"
           h="590"
           gap={8}
