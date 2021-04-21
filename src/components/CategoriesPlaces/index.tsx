@@ -11,7 +11,7 @@ export function CategoriesPlaces(){
       <Stack
         mt="16"
         spacing={["10", "20", "40"]}
-        margin="6rem auto"
+        margin={["6rem 2rem", "6rem auto"]}
         display="flex"
         direction={{ base: 'row', md: 'row', sm: 'column' }}
         alignItems="center"

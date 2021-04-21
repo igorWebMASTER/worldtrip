@@ -20,21 +20,21 @@ export function BannerHome(){
       bgPos="center"
       bgSize="cover"
       bgRepeat="no-repeat"
-      height="350"
+      height={["220","350"]}
     >
       <Stack 
         maxW={1440}
         margin="0 auto"
       >
         <Box
-          px={[10, 20, 30]}
+          px={[7, 20, 30]}
           py={[10, 10, 100]}
           color="#fff"
         >
             <Text 
               as="h1" 
-              fontSize="36"
-              lineHeight="54px"
+              fontSize={["20","36"]}
+              lineHeight={["30px","54px"]}
               fontWeight="500"
             >
                 5 Continentes, <br/>
@@ -44,7 +44,7 @@ export function BannerHome(){
               as="p"
               mt="4"
             >
-                Chegou a hora de tirar do papel a viagem que você <br/> 
+                Chegou a hora de tirar do papel a viagem que você 
                 sempre sonhou. 
             </Text>
         </Box>

@@ -32,29 +32,29 @@ export function CardsCountries(){
           <Card  
               title="Paris"
               subtitle="França"
-              imgIco="/LondoThumb.png"
-              image="/Londo.png"
+              imgIco="/paris-icon.png"
+              image="/Paris.png"
           />
 
           <Card  
               title="Roma"
               subtitle="Itália"
-              imgIco="/LondoThumb.png"
-              image="/Londo.png"
+              imgIco="/italia-icon.png"
+              image="/Roma.png"
           />
 
           <Card  
               title="Praga"
               subtitle="República Tcheca"
-              imgIco="/LondoThumb.png"
-              image="/Londo.png"
+              imgIco="/praga-icon.png"
+              image="/Praga.png"
           />
 
           <Card  
               title="Amsterdã"
               subtitle="Holanda"
-              imgIco="/LondoThumb.png"
-              image="/Londo.png"
+              imgIco="/amsterda-icon.png"
+              image="/Amsterda.png"
           />
 
           

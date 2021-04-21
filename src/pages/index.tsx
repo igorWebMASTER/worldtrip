@@ -30,9 +30,9 @@ export default function Home() {
       >
         <Text
           as="h1"
-          fontWeight="normal"
+          fontWeight="500"
           textAlign="center"
-          fontSize="36"
+          fontSize={["24","36"]}
           color="#47585B"
         >
           
