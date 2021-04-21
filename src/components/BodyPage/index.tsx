@@ -1,4 +1,5 @@
-import { Box, Container, HStack, Text } from "@chakra-ui/layout";
+import { Image } from "@chakra-ui/image";
+import { Box, Container, HStack, Text , Tooltip} from "@chakra-ui/react";
 
 export function BodyPage(){
 
@@ -78,10 +79,22 @@ export function BodyPage(){
               </Text>
               <Text
                 fontWeight="600"
+                display="flex"
                 fontSize={["18","22", "24"]}
                 color="#47585B"
               >
-               cidades + 100
+              
+                  cidades + 100  
+                 
+                 <Box 
+                  mt="2.5"
+                  ml="3"
+                 > 
+                 <Tooltip label="Hey, I'm here!" aria-label="A tooltip">
+                  <Image src="/Info.svg" alt="tooltip" />
+                </Tooltip>
+             
+                </Box>
               </Text>
             </Box>
           </HStack>
