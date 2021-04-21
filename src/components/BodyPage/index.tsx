@@ -4,7 +4,7 @@ export function BodyPage(){
 
   return (
     <Container
-      maxWidth={1140}
+      maxWidth={1240}
       m="5rem auto"
       display="flex"
       flexDirection={["column", "column","row"]}
@@ -17,6 +17,7 @@ export function BodyPage(){
         >
           <Text
             fontSize={["18", "22"]}
+            color="#47585B"
           >
             A Europa é, por convenção, um dos seis continentes do mundo. 
             Compreendendo a península ocidental da Eurásia, a Europa geralmente 

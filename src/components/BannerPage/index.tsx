@@ -20,7 +20,7 @@ export function BannerPage(){
       height="500"
     >
       <Stack 
-        maxW={1440}
+        maxW={1160}
         margin="0 auto"
       >
         <Box
