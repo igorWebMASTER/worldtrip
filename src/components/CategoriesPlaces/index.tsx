@@ -1,5 +1,5 @@
 import { Image } from "@chakra-ui/image";
-import { Box, HStack, Stack, Text } from "@chakra-ui/layout";
+import { Box, Stack  } from "@chakra-ui/react";
 
 
 
@@ -13,35 +13,25 @@ export function CategoriesPlaces(){
         spacing={["10", "20", "40"]}
         margin="6rem auto"
         display="flex"
-        direction={{ base: 'row', md: 'row', sm: 'column'}}
-        alignItems="space-between"
+        direction={{ base: 'row', md: 'row', sm: 'column' }}
+        alignItems="center"
         align="center"
         justifyItems="center"
         justifyContent="center"
       >
-          <Box
-            
-          >
+          <Box>
             <Image src="/Nightlife.svg" />
           </Box>
-          <Box
-           
-          >
+          <Box>
             <Image src="/Beach.svg" />
           </Box>
-          <Box
-            
-          >
+          <Box>
             <Image src="/Modern.svg" />
           </Box>
-          <Box
-           
-          >
+          <Box>
             <Image src="/Classic.svg" />
           </Box>
-          <Box
-           
-          >
+          <Box>
             <Image src="/More.svg" />
           </Box>
       </Stack>

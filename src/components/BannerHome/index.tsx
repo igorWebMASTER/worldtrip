@@ -1,5 +1,4 @@
-import { Image } from "@chakra-ui/image";
-import { Box, Stack, Text } from "@chakra-ui/layout";
+import { Box, Stack, Text } from "@chakra-ui/react";
 import { useBreakpointValue } from "@chakra-ui/media-query";
 import { BannerImg } from "./bannerImg";
 

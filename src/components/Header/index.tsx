@@ -1,9 +1,14 @@
-import { Flex, Text } from "@chakra-ui/layout";
+import { Flex, Icon, Text } from "@chakra-ui/react";
+import { useRouter } from 'next/router';
+import Link from "next/link";
 import { Logo } from "./Logo";
+import { useState } from "react";
 
 export function Header (){
+ 
+
   return(
-    <Flex 
+    <Flex
       as="header" 
       w="100%"
       h="70"
@@ -12,6 +17,7 @@ export function Header (){
       align="center"
       justify="center"
   >
+    
     <Logo />
   </Flex>
   )

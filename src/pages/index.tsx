@@ -1,5 +1,5 @@
 
-import { Box, Center, Container, Text } from '@chakra-ui/layout'
+import { Box, Container, Text } from '@chakra-ui/layout'
 import { BannerHome } from '../components/BannerHome'
 import { CarouselSlider } from '../components/CarouseSlider'
 import { CategoriesPlaces } from '../components/CategoriesPlaces'
@@ -35,9 +35,10 @@ export default function Home() {
           fontSize="36"
           color="#47585B"
         >
-                Vamos nessa? <br/>
-        Então escolha seu continente
-
+          
+              Vamos nessa? <br/>
+              Então escolha seu continente
+            
           </Text>
       </Box>
 
